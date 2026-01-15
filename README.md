@@ -3,7 +3,7 @@ Frontend Website for LogicLoom TechFest showcasing events, schedule, and registr
 
 ---
 
-##  Project Overview
+#  Project Overview
 LogicLoom is a TechFest website created to showcase technical events, schedules, and registrations.  
 It is completely frontend-based without any backend.
 
@@ -17,7 +17,9 @@ Science College(Autonomous),Hinjilcut
 BCA
 ## Technologies used:
 -HTML for page structure
+
 -CSS for styling 
+
 -JavaScript for Interactivity and Validation
 
 --
