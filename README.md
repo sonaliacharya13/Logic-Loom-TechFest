@@ -7,7 +7,6 @@ Frontend Website for LogicLoom TechFest showcasing events, schedule, and registr
 LogicLoom is a TechFest website created to showcase technical events, schedules, and registrations.  
 It is completely frontend-based without any backend.
 
----
 
 ## Participant Name: 
 Sonali Acharya
