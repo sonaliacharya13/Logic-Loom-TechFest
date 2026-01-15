@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glass Navbar Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">BCA DEPARTMENT</div>
+        <nav>
+            <a href="#home" class=" nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#event" class="nav-link">Events</a>
+            <a href="#schedule" class="nav-link">Schedule</a>
+            <a href="#register" class="nav-link">Register</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="section1" id="home">
+        <div class="section1-content">
+            <h1>Welcome To LogicLoom TechFest 2026</h1>
+            <h2>Where Logic Shapes Innovation.</h2><br>
+            <p>
+                LogicLoom TechFest 2026 is a celebration of technology,innovation, and logical thinking.
+                Join us for exciting competitions, creative challenges, and platform to showcase your tech skills.
+            </p>
+            <p>Join us and be part of s tech fest that celebrates <span>logic</span>, <span>learning</span> and <span>Innovation</span>.</p>
+            <a href="#event">
+                <button class="home-event">EXPLORE EVENTS</button></a>
+        </div>
+    </section>
+    <section class="section2" id="about">
+            <div class="section2-content">
+                <h2>About LogicLoom TechFest</h2><br>
+                <p>
+                    <ul>
+                        <li>LogicLoom TechFest is an annual technical festival organized by the
+                             Department of BCA(Bechelor of Computer Application).</li><br>
+                        <li>The fest is designed to peovide students with a platform to explore 
+                            technology, enhance logical thinking, and develope problem-solving 
+                            skills through a variety of technical and non-technical events.</li><br>
+                        <li>LogicLoom focuses on nurturing innovation, creativity and technical 
+                            excellence.</li><br>
+                        <li>It encourages participants to apply theoretical knowledge to real-world 
+                            challenges and gain practical exposure in areas such as 
+                            programming, web development, and analytical reasoning.</li><br>
+                        <li>The fest is open to students who are passionate about technology and
+                             eager to learn, compete, and collaborate in a challenging yet engaging
+                             environment. </li>
+                    </ul>
+                </p>
+            </div>
+    </section>
+    <section class="section3" id="event">
+            <div class="section3-content">
+                <h2 class="section-title">Events & Competitions</h2>
+                <div class="event-card">
+                    <h3>1.Problem Solving</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event1')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event1">
+                        <p><strong>About:</strong>  
+                            Problem Solving is a technical event that tests participants
+                            logical thinking and analytical skills through carefully designed 
+                            reasoning-based questions. The focus is on understanding problems and
+                            applying correct logic within a limited time.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation Only.</li>
+                                <li>Time limit: 30 minutes</li>
+                                <li>Use of electronic devices is strictly prohibited.</li>
+                                <li>Any form of malpractice will result in disqualification.</li>
+                            </ul>
+                        <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Accuracy of answers</li>
+                                <li>Logical reasoning and approach</li>
+                                <li>Time management</li>
+                                <li>Clarity of solutions</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Students from any discipline can participate.</li>
+                                <li>Basic knowledge of logical reasoning is sufficient.</li>
+                                <li>No coding experience is required.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>2.Innovation Idea Presentation</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event2')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event2">
+                        <p><strong>About:</strong>  
+                            Innovation Idea Presentation is an event where participants present
+                             a creative technical idea that addresses a real-world problem. 
+                             The focus is on originality, clarity of thought, and practical 
+                             relevance of the proposed solution.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Guidelines & Rules</li>
+                                <li>Individual participation only.</li>
+                                <li>Participants must present one original technical idea.</li>
+                                <li>Presentation duration: 3–5 minutes.</li>
+                                <li>Ideas may be presented using a PPT or verbal explanation.</li>
+                                <li>The idea must be related to technology or digital solutions.</li>
+                                <li>Plagiarism or copied ideas will lead to disqualification.</li>
+                                <li>Judges’ decision will be final.</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Innovation and originality</li>
+                                <li>Clarity of explanation</li>
+                                <li>Practical feasibility</li>
+                                <li>Presentation skills</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Participants from any branch may apply.</li>
+                                <li>No working model is required.</li>
+                                <li>Basic understanding of technology is sufficient.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>3.Debugging Contest</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event3')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event3">
+                        <p><strong>About:</strong>  
+                            Debugging Contest is a technical event where participants 
+                            identify and correct errors in given code snippets. The event tests
+                             logical thinking, attention to detail, and understanding of basic 
+                             programming concepts.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation</li>
+                                <li>Participants will be provided with faulty code snippets.</li>
+                                <li>Programming language will be announced before the event.</li>
+                                <li>Event duration: 30 minutes.</li>
+                                <li>Corrected code must follow proper syntax and logic.</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Number of errors correctly identified</li>
+                                <li>Accuracy of fixes</li>
+                                <li>Logical approach</li>
+                                <li>Time management</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Participants should have basic knowledge of programming concepts.</li>
+                                <li>No working model is required.</li>
+                                <li>Suitable for beginners and intermediate-level students.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>4.Speed Coding</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event4')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event4">
+                        <p><strong>About:</strong>  
+                            Speed Coding is a competitive programming event where 
+                            participants solve coding problems within a limited time. 
+                            The event emphasizes speed, logic, and code efficiency.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation</li>
+                                <li>Time limit: 45 minutes</li>
+                                <li>Participants will be given a set of programming problems.</li>
+                                <li>Allowed programming languages will be announced before the event.</li>
+                                <li>Solutions must produce correct output for given test cases.</li>
+                                <li>Use of unfair means will lead to disqualification.</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Number of problems solved</li>
+                                <li>Correctness of solutions</li>
+                                <li>Time taken to submit solutions</li>
+                                <li>Code efficiency and logic</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Basic knowledge of programming is required.</li>
+                                <li>Suitable for beginners and intermediate-level students.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>5.Tech Quiz</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event5')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event5">
+                        <p><strong>About:</strong>  
+                            Tech Quiz is a knowledge-based event designed to test
+                             participants’ understanding of computer fundamentals and 
+                             basic programming concepts. The quiz focuses on accuracy, speed, and 
+                             logical thinking.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation</li>
+                                <li>Time limit: 60 minutes</li>
+                                <li>The quiz consists of multiple-choice questions (MCQs).</li>
+                                <li>Total number of questions: 50.</li>
+                                <li>Topics include computer fundamentals and basic programming.</li>
+                                <li>No negative marking</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Number of correct answers</li>
+                                <li>Correctness of solutions</li>
+                                <li>Time taken to complete the quiz</li>
+                                <li>Accuracy and consistency</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Basic knowledge of programming is required.</li>
+                                <li>Suitable for beginners and intermediate-level students.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>6.Web Design</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event6')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event6">
+                        <p><strong>About:</strong>  
+                            Web Design is a creative technical event where participants 
+                            design a responsive and visually appealing website interface.
+                             The event focuses on layout, creativity, usability, and basic 
+                             frontend skills.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation</li>
+                                <li>Participants must design a frontend-only web page.</li>
+                                <li>Allowed technologies: HTML, CSS, and JavaScript.</li>
+                                <li>Use of frameworks or libraries is allowed.</li>
+                                <li>Event duration: 7 days.</li>
+                                <li>Designs must be original and self-created.</li>
+                                <li>Use of stock images/icons is allowed</li>
+                                <li>Any form of plagiarism will lead to disqualification.</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>UI/UX design quality</li>
+                                <li>Creativity and innovation</li>
+                                <li>Responsiveness (mobile & desktop)</li>
+                                <li>Code structure and cleanliness</li>
+                                <li>Overall visual appeal</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Suitable for beginners and creative designers.</li>
+                                <li>Basic knowledge of frontend web development is sufficient.</li>
+                            </ul>
+                    </div>
+                </div><br>
+                <div class="event-card">
+                    <h3>7.Algorithm Test</h3>
+                    <p class="event-short">
+                        Test your logical thinking and analytical skills through challenging problems.
+                    </p>
+
+                    <button class="event-btn" onclick="toggleDetails('event7')">
+                        View Details
+                    </button>
+
+                    <div class="event-details" id="event7">
+                        <p><strong>About:</strong>  
+                            Algorithm Test is a technical event that evaluates participants 
+                            understanding of basic algorithms and logical problem-solving 
+                            techniques. The event focuses on analytical thinking rather than 
+                            complex coding.</p>
+
+                        <p><strong>Rules & Guidelines:</strong></p>
+                            <ul>
+                                <li>Individual participation</li>
+                                <li>Time limit: 30 minutes</li>
+                                <li>The test consists of algorithm-based and logic-oriented questions.</li>
+                                <li>Questions may include flowcharts, step analysis, and output prediction.</li>
+                            </ul>
+                            <p><strong> Evaluation Criteria</strong></p>
+                            <p>Participants will be evaluated based on:</p>
+                            <ul>
+                                <li>Accuracy of answers</li>
+                                <li>Logical reasoning</li>
+                                <li>Understanding of algorithmic steps</li>
+                                <li>Time management</li>
+                            </ul>
+                        <p><strong> Eligibility</strong></p>
+                            <ul>
+                                <li>Open to all undergraduate students.</li>
+                                <li>Suitable for beginners and creative designers.</li>
+                                <li>Basic knowledge of algorithms and logical thinking is sufficient.</li>
+                                <li>No advanced programming experience is required.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section3" id="schedule">
+        <div class="section3-content">
+            <h2 class="section3-title">Event Schedule</h2>
+            <div class="schedule-table">
+                <div class="schedule-row header">
+                    <span>Event</span>
+                    <span>Date</span>
+                    <span>Time</span>
+                    <span>Venue</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Problem Solving</span>
+                    <span>20 jan 2026</span>
+                    <span>10.00 AM</span>
+                    <span>BCA Lab</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Innovation Idea Presentation</span>
+                    <span>20 jan 2026</span>
+                    <span>11.00 AM</span>
+                    <span>Seminar Hall</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Debugging Contest</span>
+                    <span>21 jan 2026</span>
+                    <span>10.00 AM</span>
+                    <span>BCA Lab</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Speed Coding</span>
+                    <span>21 jan 2026</span>
+                    <span>11.00 AM</span>
+                    <span>BCA Lab</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Tech Quiz</span>
+                    <span>22 jan 2026</span>
+                    <span>10.00 AM</span>
+                    <span>Room 41</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Algorithm Test</span>
+                    <span>22 jan 2026</span>
+                    <span>11.30 AM</span>
+                    <span>Room 41</span>
+                </div>
+                <div class="schedule-row">
+                    <span>Web Design</span>
+                    <span>23 jan 2026</span>
+                    <span>10.00 AM</span>
+                    <span>BCA Lab</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3" id="register">
+    <div class="section3-content">
+        <h2 class="section-title">Event Registration</h2>
+
+        <form class="register-form" action="success.html" onsubmit="return validateForm()">
+
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="mobile" placeholder="Mobile Number" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="college" placeholder="College Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="department" placeholder="Department" required>
+            </div>
+
+            <div class="form-group">
+                <label class="event-label">Select Events</label>
+                <div class="event-options">
+                    <label><input type="checkbox" value="Problem Solving"> Problem Solving</label>
+                    <label><input type="checkbox" value="Innovation Idea Presentation"> Innovation Idea Presentation</label>
+                    <label><input type="checkbox" value="Debugging Contest"> Debugging Contest</label>
+                    <label><input type="checkbox" value="Speed Coding"> Speed Coding</label>
+                    <label><input type="checkbox" value="Tech Quiz"> Tech Quiz</label>
+                    <label><input type="checkbox" value="Algorithm Test"> Algorithm Test</label>
+                    <label><input type="checkbox" value="Web Design"> Web Design</label>
+                </div>
+            </div>
+            <button type="submit" class="register-btn">Register Now</button>
+
+            <p id="success-msg"></p>
+        </form>
+    </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
